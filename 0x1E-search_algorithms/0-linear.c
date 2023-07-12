@@ -1,4 +1,6 @@
 #include "search_algos.h"
+
+
 /**
  * search lnear form in array for element
  * @array: array list
@@ -6,9 +8,11 @@
  * @value: value of the array
  * Return: index where user looks for
  */
+
+
+
 int linear_search(int *array, size_t size, int value)
 {
-
 	// Check if the array or the value is NULL
 	if (array == NULL)
 		return (-1);
